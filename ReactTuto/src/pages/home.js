@@ -11,7 +11,7 @@ export default function Home(){
     display:"block",
     textDecoration: "none",
     color: "black",
-    fontSize: "20px",
+    fontSize: "15px",
     marginBottom: "10px"
   }
   return (
@@ -22,6 +22,10 @@ export default function Home(){
       <li> <Link to="/filter-render" style={list}>3. Use Filter and Map </Link></li>
       <li> <Link to="/tree-struct" style={list}>4. Parent - Child </Link></li>
       <li> <Link to="/handle-event" style={list}>5. Handle Event </Link></li>
+      <li> <Link to="/object" style={list}>6. Object Manage </Link></li>
+      <li> <Link to="/example1" style={list}>7. Example1 - TodoList </Link></li>
+      <li> <Link to="/example2" style={list}>7. Example2 - TodoList(useImmer) </Link></li>
+      <li> <Link to="/interactive-state" style={list}>7. interactive-state </Link></li>
       </ul>
     </>
   )
